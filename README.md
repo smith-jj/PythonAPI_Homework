@@ -14,17 +14,14 @@ The objective was to build a series of scatter plots to showcase the relationshi
 * Randomly select 500+ unique (non-repeat) cities based on latitude and longitude using a series of successive API calls.
 * Print log of each city as it's being processed with the city number and city name.
 * Queries for explore the weather data on each of the cities that explore:
-    * Temperature (F) vs. Latitude
-    * Humidity (%) vs. Latitude
-    * Cloudiness (%) vs. Latitude
-    * Wind Speed (mph) vs. Latitude
-
+    * Temperature (F) vs. Latitude (saved as Figure1)
+    * Humidity (%) vs. Latitude (saved as Figure2)
+    * Cloudiness (%) vs. Latitude (saved as Figure3)
+    * Wind Speed (mph) vs. Latitude (saved as Figure4)
 
 ## Additional Files:
-* CSV of all city weather data retrieved  
+* CSV of all city weather data retrieved from API calls 
 * PNG images for each scatter plot
-
-
 
 ## Analysis
 Using the WeatherMap API to pull weather data from 500+ random cities around the world to determine correlation between a city's location and weather. A city that is closer to the equator is more likely to have higher tempatures than cities further from the equator. 
